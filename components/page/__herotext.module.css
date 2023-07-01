@@ -1,0 +1,3 @@
+.main {
+    @apply p-6 text-2xl font-medium leading-relaxed;
+}

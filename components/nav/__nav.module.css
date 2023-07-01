@@ -1,0 +1,7 @@
+.main {
+    @apply w-full border-b;
+}
+
+.wrap {
+    @apply w-full px-6 py-5 max-w-cutoff 2xl:px-0 mx-auto flex items-center justify-between;
+}
