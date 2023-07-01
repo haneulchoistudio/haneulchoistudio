@@ -7,7 +7,6 @@ import { BsArrowRight } from 'react-icons/bs';
 import H2 from '~/component/typography/H2';
 import H4 from '~/component/typography/H4';
 import H3 from '~/component/typography/H3';
-import Button from '~/component/button/Button';
 import PageLink from '~/component/link/PageLink';
 import P from '~/component/typography/P';
 
