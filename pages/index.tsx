@@ -8,7 +8,6 @@ import H2 from '~/component/typography/H2';
 import H4 from '~/component/typography/H4';
 import H3 from '~/component/typography/H3';
 import PageLink from '~/component/link/PageLink';
-import P from '~/component/typography/P';
 import type { GetServerSidePropsContext } from 'next';
 import { ssr } from '~/middleware/ssr';
 import ServiceCard from '~/component/page/ServiceCard';
