@@ -34,4 +34,12 @@ declare module 'types' {
         name?: string;
         Icon?: IconType;
     };
+
+    type Service = {
+        name?: string;
+        description?: string;
+        keyWords?: Array<string>;
+        priceRange?: [number, number];
+        image?: string;
+    };
 }

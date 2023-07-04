@@ -29,7 +29,9 @@
             // PATH TO LIBRARY
             "~/library/*": ["libs/*"],
             // PATH TO COMPONENTS
-            "~/component/*": ["components/*"]
+            "~/component/*": ["components/*"],
+            // PATH TO MIDDLEWARE
+            "~/middleware/*": ["middleware/*"]
         },
         "incremental": true
     },
