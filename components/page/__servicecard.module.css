@@ -17,3 +17,7 @@
 .description {
     @apply text-base lg:text-lg text-neutral-500;
 }
+
+.link {
+    @apply flex items-center gap-x-4 transition-smooth lg:hover:border-l-4 lg:hover:px-4 py-2 lg:hover:border-neutral-800 lg:hover:text-neutral-400 lg:hover:bg-neutral-700 lg:hover:text-white w-max;
+}

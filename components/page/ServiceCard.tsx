@@ -2,6 +2,8 @@ import type { Service } from 'types';
 import { twMerge } from 'tailwind-merge';
 import Style from './__servicecard.module.css';
 import P from '../typography/P';
+import PageLink from '../link/PageLink';
+import { BsArrowRight } from 'react-icons/bs';
 
 type ServiceCardProps = Service;
 
@@ -25,6 +27,13 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
                 )}
             </div>
             <P className={twMerge(Style.description)}>{description}</P>
+            <PageLink
+                href={`/services/${name}`}
+                className={twMerge(Style.link)}
+            >
+                <span>View Detail</span>
+                <BsArrowRight size={26} />
+            </PageLink>
         </div>
     );
 };
